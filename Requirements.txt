@@ -5,3 +5,4 @@ docling
 python-dotenv
 openai
 googlesearch-python
+pycountry
