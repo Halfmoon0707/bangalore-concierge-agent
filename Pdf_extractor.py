@@ -1,4 +1,4 @@
-# Pdf_extractor.py
+ # Pdf_extractor.py
 from docling.document_converter import DocumentConverter
 from pathlib import Path
 
