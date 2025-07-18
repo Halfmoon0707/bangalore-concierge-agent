@@ -3,3 +3,4 @@ chromadb
 sentence-transformers
 docling
 python-dotenv
+openai
