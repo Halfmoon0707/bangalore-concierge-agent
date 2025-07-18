@@ -270,14 +270,14 @@ class BangaloreConcierge:
         if not response or "Error" in response or len(response) < 50:
             if "kannada" in user_input_lower:
                 response = (
-                    f"According to The Ultimate Bangalore Guide:\n"
-                    f"The guide lacks specific details; using fallback phrases:\n"
-                    f"- {'\n- '.join(self.kannada_phrases)}"
+                    "According to The Ultimate Bangalore Guide:\n"
+                    "The guide lacks specific details; using fallback phrases:\n"
+                    +"-" +{"\n- ".join(self.kannada_phrases)}
                 )
             else:
                 response = (
-                    f"According to The Ultimate Bangalore Guide:\n"
-                    f"The guide lacks specific details, but here's what I found:\n"
+                    "According to The Ultimate Bangalore Guide:\n"
+                    "The guide lacks specific details, but here's what I found:\n"
                     + "\n".join([f"- {item['content'][:200]}..." for item in context[:2]]) +
                     "\nTry a more specific query or check current information."
                 )
