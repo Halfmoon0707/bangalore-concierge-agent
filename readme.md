@@ -28,7 +28,7 @@ This repo implements an AI agent using Agno for assisting tourists and new resid
 - **Implementation**: Blending happens in _build_prompt by including web_info string; agent extracts and notes conflicts. Tested with price queries (e.g., palace entry).
 
 ## Setup and Running
-- Install dependencies: `pip install -r requirements.txt`.
+- Install dependencies: `pip install -r Requirements.txt`.
 - Run: `python agent.py` (generates conversation files in conversations/).
 - Tests: Includes single queries and multi-turn for switching.
 
