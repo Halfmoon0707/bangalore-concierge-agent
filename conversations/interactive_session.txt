@@ -1,0 +1,3 @@
+Query: how much revenue banglore generates throught IT exports ?
+Response: The guide states that Bangalore generates $45 billion in IT exports.
+
